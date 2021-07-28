@@ -10,9 +10,7 @@
 		CE7072B426A32E3500EEF934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7072B326A32E3500EEF934 /* AppDelegate.swift */; };
 		CE7072B626A32E3500EEF934 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7072B526A32E3500EEF934 /* SceneDelegate.swift */; };
 		CE7072B826A32E3500EEF934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7072B726A32E3500EEF934 /* ViewController.swift */; };
-		CE7072BB26A32E3500EEF934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7072B926A32E3500EEF934 /* Main.storyboard */; };
 		CE7072BD26A32E3C00EEF934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7072BC26A32E3C00EEF934 /* Assets.xcassets */; };
-		CE7072C026A32E3C00EEF934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7072BE26A32E3C00EEF934 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +18,7 @@
 		CE7072B326A32E3500EEF934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE7072B526A32E3500EEF934 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE7072B726A32E3500EEF934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE7072BA26A32E3500EEF934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE7072BC26A32E3C00EEF934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE7072BF26A32E3C00EEF934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7072C126A32E3C00EEF934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,9 +55,7 @@
 				CE7072B326A32E3500EEF934 /* AppDelegate.swift */,
 				CE7072B526A32E3500EEF934 /* SceneDelegate.swift */,
 				CE7072B726A32E3500EEF934 /* ViewController.swift */,
-				CE7072B926A32E3500EEF934 /* Main.storyboard */,
 				CE7072BC26A32E3C00EEF934 /* Assets.xcassets */,
-				CE7072BE26A32E3C00EEF934 /* LaunchScreen.storyboard */,
 				CE7072C126A32E3C00EEF934 /* Info.plist */,
 			);
 			path = TheStarWars;
@@ -124,9 +118,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7072C026A32E3C00EEF934 /* LaunchScreen.storyboard in Resources */,
 				CE7072BD26A32E3C00EEF934 /* Assets.xcassets in Resources */,
-				CE7072BB26A32E3500EEF934 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,25 +136,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CE7072B926A32E3500EEF934 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE7072BA26A32E3500EEF934 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE7072BE26A32E3C00EEF934 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE7072BF26A32E3C00EEF934 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE7072C226A32E3C00EEF934 /* Debug */ = {
@@ -296,7 +269,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = m.nazirov.TheStarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = m.nazirov.TheStarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
