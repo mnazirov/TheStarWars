@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6DEA4126B168A20096743F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DEA4026B168A20096743F /* NetworkManager.swift */; };
+		CE6DEA4726B16A710096743F /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DEA4626B16A710096743F /* People.swift */; };
+		CE6DEA4926B188790096743F /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DEA4826B188790096743F /* Film.swift */; };
+		CE6DEA4B26B1889A0096743F /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DEA4A26B1889A0096743F /* Species.swift */; };
+		CE6DEA4D26B18A5C0096743F /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DEA4C26B18A5C0096743F /* Vehicles.swift */; };
+		CE6DEA4F26B18E9C0096743F /* Starships.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DEA4E26B18E9C0096743F /* Starships.swift */; };
+		CE6DEA5126B190960096743F /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DEA5026B190960096743F /* Planets.swift */; };
 		CE7072B426A32E3500EEF934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7072B326A32E3500EEF934 /* AppDelegate.swift */; };
 		CE7072B626A32E3500EEF934 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7072B526A32E3500EEF934 /* SceneDelegate.swift */; };
 		CE7072B826A32E3500EEF934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7072B726A32E3500EEF934 /* ViewController.swift */; };
@@ -14,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE6DEA4026B168A20096743F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CE6DEA4626B16A710096743F /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		CE6DEA4826B188790096743F /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		CE6DEA4A26B1889A0096743F /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		CE6DEA4C26B18A5C0096743F /* Vehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicles.swift; sourceTree = "<group>"; };
+		CE6DEA4E26B18E9C0096743F /* Starships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starships.swift; sourceTree = "<group>"; };
+		CE6DEA5026B190960096743F /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
 		CE7072B026A32E3500EEF934 /* TheStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7072B326A32E3500EEF934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE7072B526A32E3500EEF934 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +47,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE6DEA3F26B168630096743F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DEA4026B168A20096743F /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE6DEA4226B168B90096743F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE7072B726A32E3500EEF934 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE6DEA4326B168E20096743F /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				CE7072BC26A32E3C00EEF934 /* Assets.xcassets */,
+			);
+			path = Sourses;
+			sourceTree = "<group>";
+		};
+		CE6DEA4426B168F40096743F /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CE7072B326A32E3500EEF934 /* AppDelegate.swift */,
+				CE7072B526A32E3500EEF934 /* SceneDelegate.swift */,
+				CE7072C126A32E3C00EEF934 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		CE6DEA4526B169120096743F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DEA4626B16A710096743F /* People.swift */,
+				CE6DEA4826B188790096743F /* Film.swift */,
+				CE6DEA4A26B1889A0096743F /* Species.swift */,
+				CE6DEA5026B190960096743F /* Planets.swift */,
+				CE6DEA4C26B18A5C0096743F /* Vehicles.swift */,
+				CE6DEA4E26B18E9C0096743F /* Starships.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CE7072A726A32E3500EEF934 = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +113,11 @@
 		CE7072B226A32E3500EEF934 /* TheStarWars */ = {
 			isa = PBXGroup;
 			children = (
-				CE7072B326A32E3500EEF934 /* AppDelegate.swift */,
-				CE7072B526A32E3500EEF934 /* SceneDelegate.swift */,
-				CE7072B726A32E3500EEF934 /* ViewController.swift */,
-				CE7072BC26A32E3C00EEF934 /* Assets.xcassets */,
-				CE7072C126A32E3C00EEF934 /* Info.plist */,
+				CE6DEA3F26B168630096743F /* Services */,
+				CE6DEA4226B168B90096743F /* ViewControllers */,
+				CE6DEA4526B169120096743F /* Models */,
+				CE6DEA4326B168E20096743F /* Sourses */,
+				CE6DEA4426B168F40096743F /* SupportFiles */,
 			);
 			path = TheStarWars;
 			sourceTree = "<group>";
@@ -129,9 +190,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6DEA4126B168A20096743F /* NetworkManager.swift in Sources */,
+				CE6DEA5126B190960096743F /* Planets.swift in Sources */,
+				CE6DEA4B26B1889A0096743F /* Species.swift in Sources */,
+				CE6DEA4926B188790096743F /* Film.swift in Sources */,
 				CE7072B826A32E3500EEF934 /* ViewController.swift in Sources */,
+				CE6DEA4D26B18A5C0096743F /* Vehicles.swift in Sources */,
+				CE6DEA4F26B18E9C0096743F /* Starships.swift in Sources */,
 				CE7072B426A32E3500EEF934 /* AppDelegate.swift in Sources */,
 				CE7072B626A32E3500EEF934 /* SceneDelegate.swift in Sources */,
+				CE6DEA4726B16A710096743F /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
