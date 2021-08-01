@@ -53,10 +53,6 @@
 	<dict>
 		<key>UIColorName</key>
 		<string>black</string>
-		<key>UIImageRespectsSafeAreaInsets</key>
-		<false/>
-		<key>UIImageName</key>
-		<string>starWars</string>
 	</dict>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

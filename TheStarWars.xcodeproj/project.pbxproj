@@ -115,11 +115,19 @@
 			children = (
 				CE6DEA3F26B168630096743F /* Services */,
 				CE6DEA4226B168B90096743F /* ViewControllers */,
+				CEEAB44226B6DE4D00039C61 /* View */,
 				CE6DEA4526B169120096743F /* Models */,
 				CE6DEA4326B168E20096743F /* Sourses */,
 				CE6DEA4426B168F40096743F /* SupportFiles */,
 			);
 			path = TheStarWars;
+			sourceTree = "<group>";
+		};
+		CEEAB44226B6DE4D00039C61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25ZP9J625N;
-				INFOPLIST_FILE = TheStarWars/Info.plist;
+				INFOPLIST_FILE = TheStarWars/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,7 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25ZP9J625N;
-				INFOPLIST_FILE = TheStarWars/Info.plist;
+				INFOPLIST_FILE = TheStarWars/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

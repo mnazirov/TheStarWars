@@ -5,22 +5,22 @@
 //  Created by Marat on 28.07.2021.
 //
 
-struct CatalogOfFilm {
+struct CatalogOfFilm: Decodable {
     let count: Int?
     let next: String?
     let previous: String?
     let results: Film?
 }
 
-struct Film {
+struct Film: Decodable {
     let title: String?
-    let opening_crawl: String?
+    let openingCrawl: String?
     let director: String?
     let producer: String?
-    let release_date: String?
-    let characters: [People]?
-    let planets: [Planets]?
-    let starships: [Starships]?
-    let vehicles: [Vehicles]?
-    let species: [Species]?
+    let releaseDate: String?
+    let characters: [String?]
+    let planets: [String?]
+    let starships: [String?]
+    let vehicles: [String?]
+    let species: [String?]
 }
