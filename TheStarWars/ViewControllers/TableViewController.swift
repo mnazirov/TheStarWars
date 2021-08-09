@@ -54,8 +54,17 @@ class TableViewController: UITableViewController {
         
         var content = cell.defaultContentConfiguration()
         content.textProperties.color = .white
+        content.secondaryTextProperties.color = .white
         
         content.text = persona?.name
+        content.secondaryText = "Sex: \(persona?.gender ?? "-") " +
+            "| Height: \(persona?.height ?? "-") " +
+            "| Mass: \(persona?.mass ?? "-") "
+        
+        let backgroundView = UIView()
+        backgroundView.backgroundColor = UIColor.darkGray
+        cell.selectedBackgroundView = backgroundView
+        
         cell.contentConfiguration = content
         
         return cell
