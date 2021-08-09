@@ -12,7 +12,7 @@ class NetworkManager {
     
     private init() {}
     
-    func fetchPeople(urlJSON: String, complition: @escaping (People) -> Void) {
+    func fetchPeople(urlJSON: String, complition: @escaping (CatalogOfPeople) -> Void) {
         guard let url = URL(string: urlJSON) else { return print("Ошибка URL") }
         
 
@@ -26,7 +26,7 @@ class NetworkManager {
             do {
                 let decodable = JSONDecoder()
                 decodable.keyDecodingStrategy = .convertFromSnakeCase
-                let people = try decodable.decode(People.self, from: data)
+                let people = try decodable.decode(CatalogOfPeople.self, from: data)
                 complition(people)
             } catch let errorData {
                 print(errorData)

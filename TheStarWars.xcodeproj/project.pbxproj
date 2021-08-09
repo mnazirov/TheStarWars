@@ -16,8 +16,9 @@
 		CE6DEA5126B190960096743F /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DEA5026B190960096743F /* Planets.swift */; };
 		CE7072B426A32E3500EEF934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7072B326A32E3500EEF934 /* AppDelegate.swift */; };
 		CE7072B626A32E3500EEF934 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7072B526A32E3500EEF934 /* SceneDelegate.swift */; };
-		CE7072B826A32E3500EEF934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7072B726A32E3500EEF934 /* ViewController.swift */; };
+		CE7072B826A32E3500EEF934 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7072B726A32E3500EEF934 /* TableViewController.swift */; };
 		CE7072BD26A32E3C00EEF934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7072BC26A32E3C00EEF934 /* Assets.xcassets */; };
+		CEEAB44626B8140200039C61 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAB44526B8140200039C61 /* AlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +32,10 @@
 		CE7072B026A32E3500EEF934 /* TheStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7072B326A32E3500EEF934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE7072B526A32E3500EEF934 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE7072B726A32E3500EEF934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE7072B726A32E3500EEF934 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		CE7072BC26A32E3C00EEF934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7072C126A32E3C00EEF934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEAB44526B8140200039C61 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,7 @@
 		CE6DEA4226B168B90096743F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE7072B726A32E3500EEF934 /* ViewController.swift */,
+				CE7072B726A32E3500EEF934 /* TableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -126,6 +128,7 @@
 		CEEAB44226B6DE4D00039C61 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CEEAB44526B8140200039C61 /* AlertController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,10 +205,11 @@
 				CE6DEA5126B190960096743F /* Planets.swift in Sources */,
 				CE6DEA4B26B1889A0096743F /* Species.swift in Sources */,
 				CE6DEA4926B188790096743F /* Film.swift in Sources */,
-				CE7072B826A32E3500EEF934 /* ViewController.swift in Sources */,
+				CE7072B826A32E3500EEF934 /* TableViewController.swift in Sources */,
 				CE6DEA4D26B18A5C0096743F /* Vehicles.swift in Sources */,
 				CE6DEA4F26B18E9C0096743F /* Starships.swift in Sources */,
 				CE7072B426A32E3500EEF934 /* AppDelegate.swift in Sources */,
+				CEEAB44626B8140200039C61 /* AlertController.swift in Sources */,
 				CE7072B626A32E3500EEF934 /* SceneDelegate.swift in Sources */,
 				CE6DEA4726B16A710096743F /* People.swift in Sources */,
 			);

@@ -9,7 +9,7 @@ struct CatalogOfPeople: Decodable {
     let count: Int?
     let next: String?
     let previous: String?
-    let result: [People]?
+    let results: [People]?
 }
 
 struct People: Decodable {
@@ -21,8 +21,8 @@ struct People: Decodable {
     let eyeColor: String?
     let gender: String?
     let homeworld: String?
-    let films: [String?]
-    let species: [String?]
-    let vehicles: [String?]
-    let starships: [String?]
+    let films: [String]?
+    let species: [String]?
+    let vehicles: [String]?
+    let starships: [String]?
 }
